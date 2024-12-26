@@ -1,0 +1,10 @@
+:root {
+    --header-height: 50px;
+    --primary-text-color: #122945;
+    --secondary-text-color: #7388A1;
+}
+
+body {
+    font-family: Inter, serif;
+    color: var(--primary-text-color);
+}

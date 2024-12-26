@@ -1,0 +1,31 @@
+$excellentColor: #00A775;
+$goodColor: #ADBFDF;
+$badColor: #EA1A4F;
+
+.MarkLabel {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.excellent {
+  border: 1px solid $excellentColor;
+  color: $excellentColor;
+  background-color: #DBF8EF;
+}
+
+.good {
+  border: 1px solid $goodColor;
+  color:#122945;
+  background-color: #D8E4FB;
+}
+
+.bad {
+  border: 1px solid $badColor;
+  color: $badColor;
+  background-color: #FEE9EF;
+}
